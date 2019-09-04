@@ -74,8 +74,20 @@ h1{
     float: right;
 /*    border:2px solid white;*/
 }
+#timer{
+    position: relative;
+    top: -10px;
+    width: 50%;
+    left: 70px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: courier;
+    font-weight: bold;
+}
 #rightPart img{
     position: relative;
+    top: 10px;
     left: 110px;
     width: 30%;
     border:2px solid white;
