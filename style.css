@@ -36,61 +36,62 @@ h1{
 #box{
     position: relative;
     width:100%;
-    margin-top: 20px;
-/*    border: 2px solid white;*/
 }
 #scoreboard{
     position: relative;
-    top: 87px;
     background-color: white;
     width:70%;
     background-color: aquamarine;
     background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0));
-    
-}
-#score{
-    position: relative;
-    top: -120px;
-    left: 75%;
-    color: white;
-    font-family: arial;
-    letter-spacing: 8px;
-    font-size: 110px;
 }
 #leftPart{
     position:relative;
-    top: -15px;
-    width: 45%;
+    top: 60px;
+    height: 30%;
+    width: 35%;
     margin-left: 3%;
 }
 #p{
+    position: relative;
     color: white;
     font-family: courier;
     letter-spacing: 8px;
     font-size: 50px;
+}
+#score{
+    position: relative;
+    left: 90%;
+    top: -125px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    font-size: 110px;
 }
 #rightPart{
     position: relative;
     top: -170px;
     width:40%;
     float: right;
-/*    border:2px solid white;*/
 }
-#timer{
+#time{
     position: relative;
     top: 30;
     color: white;
     font-size: 50px;
-    text-align: center;
+    text-align: left;
+    padding-left: 30px;
     font-family: jokerman;
     font-weight: bold;
+}
+#time i{
+    padding-right: 30px;
 }
 #rightPart img{
     position: relative;
     left: 150px;
-    width: 28%;
+    width: 40%;
     border:2px solid white;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 #lst{
     position: relative;

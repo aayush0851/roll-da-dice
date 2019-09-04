@@ -11,11 +11,15 @@ function fxn1() {
     }
     else if(t<0){
         document.getElementById("rollButton").disabled=true;
+//        alert("GAME-OVER");
+//        alert("YOUR SCORE:"+" "+y);
     }
 }
 function cntdn() {
     if (t<0) {
         document.getElementById("rollButton").disabled=true;
+//        alert("GAME-OVER");
+//        alert("YOUR SCORE:"+" "+y);
     }
     else {
         document.getElementById("timer").innerHTML=t+"s";
